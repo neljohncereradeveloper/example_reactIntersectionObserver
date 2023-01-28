@@ -1,0 +1,19 @@
+.section-one--animate,
+.section-two--animate,
+.section-three--animate,
+.section-four--animate {
+  animation-name: animate;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  transform: translateX(-100%);
+}
+
+@keyframes animate {
+  50% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

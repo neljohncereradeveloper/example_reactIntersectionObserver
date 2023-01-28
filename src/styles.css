@@ -1,0 +1,51 @@
+body {
+  font-family: sans-serif;
+  height: 100%;
+  position: relative;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8em;
+  align-items: center;
+  text-align: center;
+}
+
+strong {
+  margin-left: 0.5em;
+  text-transform: uppercase;
+}
+
+.view-infos {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  background-color: black;
+  color: white;
+  padding: 1em;
+  z-index: 100;
+}
+.section-one,
+.section-two,
+.section-three,
+.section-four {
+  color: white;
+  width: 100%;
+  padding-block: 5em;
+}
+.section-one {
+  background-color: red;
+}
+.section-two {
+  background-color: blue;
+}
+.section-three {
+  background-color: green;
+}
+.section-four {
+  background-color: gray;
+}
